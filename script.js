@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------- 1. CONFIGURATION ---------- */
 
   const WHATSAPP_NUMBER = "919025032285";
-  const CAKE_FOLDER = "assets/images/cakes/";
+  const CAKE_FOLDER = "";
   const TOTAL_CAKES = 30;
 
   /*
