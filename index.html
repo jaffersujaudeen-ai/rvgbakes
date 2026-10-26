@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#24140f">
+  <meta name="description" content="Discover beautifully handcrafted birthday cakes, wedding cakes, children's cakes and custom celebration cakes at RVG Bakes, Cumbum.">
+  <title>RVG Bakes | A Little Piece of Heaven</title>
+<link rel="icon" type="image/png"
+      href="assets/images/logo/rvg-monogram.png">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <p>MADE WITH LOVE, BAKED FOR YOUR MOMENTS</p>
+    <a href="#order">Plan your celebration <span>↗</span></a>
+  </div>
+  
+
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <div class="nav-container">
+      
+<a href="#home" class="brand" aria-label="RVG Bakes home">
+    <span class="brand-monogram">
+        <img src="assets/images/logo/rvg-monogram.png" alt="RVG Bakes Logo">
+    </span>
+    <span class="brand-copy">
+        <strong>RVG BAKES</strong>
+        <small>A LITTLE PIECE OF HEAVEN</small>
+    </span>
+</a>
+
+
+      <button class="menu-toggle" id="menuToggle"
+              type="button" aria-label="Open navigation menu"
+              aria-expanded="false" aria-controls="mainNavigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-navigation" id="mainNavigation" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#categories">Shop by Category</a>
+        <a class="nav-link" href="#gallery">Cake Gallery</a>
+        <a class="nav-link" href="#story">Our Story</a>
+        <a class="nav-link" href="#founder">Founder</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-order" href="#order">Order a Cake <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero-section" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-line"></span> THE ART OF CELEBRATION</span>
+
+        <h1>Every Moment<br>
+          Deserves a<br>
+          <em>Beautiful Cake.</em>
+        </h1>
+
+        <p class="hero-description">
+          Discover handcrafted cakes for birthdays, weddings,
+          children's celebrations and every special moment worth remembering.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-dark" href="#categories">
+            Find Your Cake <span>↗</span>
+          </a>
+          <a class="button button-outline" href="#gallery">
+            Explore Gallery
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-star">✳</span>
+          <p>Thoughtfully designed. Beautifully celebrated.</p>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="RVG Bakes brand introduction">
+        <div class="hero-art-orbit orbit-one"></div>
+        <div class="hero-art-orbit orbit-two"></div>
+
+        <span class="hero-watermark">RVG</span>
+
+       <img
+  class="hero-cake-photo"
+  src="assets/images/cakes/cake-hero.png"
+  alt="Beautiful handcrafted cake by RVG Bakes"
+  loading="eager"
+  onerror="this.onerror=null;this.src='assets/images/cakes/cake-hero.png';"
+/>
+
+
+        <span class="hero-art-index">EST. IN EVERY SWEET MOMENT</span>
+      </div>
+
+      <div class="hero-bottom-line">
+        <span>CUM BUM · TAMIL NADU</span>
+        <span>CELEBRATIONS, MADE SWEETER</span>
+        <a href="#categories">DISCOVER OUR CAKES ↓</a>
+      </div>
+    </section>
+
+    <!-- BRAND PROMISE -->
+    <section class="promise-strip" aria-label="Our approach">
+      <div><span>01</span><p>Made for Your Moments</p></div>
+      <div><span>02</span><p>Personalised Designs</p></div>
+      <div><span>03</span><p>Your Vision, Our Creation</p></div>
+      <div><span>04</span><p>Every Detail Matters</p></div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section categories-section" id="categories">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">FIND YOUR PERFECT CAKE</span>
+          <h2>A Cake for <em>Every Occasion.</em></h2>
+          <p>Start with the celebration. We'll help you find the cake.</p>
+        </div>
+        <a class="text-link" href="#gallery">View all designs <span>↗</span></a>
+      </div>
+
+      <div class="category-grid">
+        <button class="category-card" type="button" data-filter="birthday">
+          <span class="category-number">01 / CELEBRATE</span>
+          <span class="category-icon" aria-hidden="true">✳</span>
+          <span class="category-name">Birthday Cakes</span>
+          <span class="category-description">Make another year unforgettable.</span>
+          <span class="category-arrow">↗</span>
+        </button>
+
+        <button class="category-card" type="button" data-filter="wedding">
+          <span class="category-number">02 / FOREVER</span>
+          <span class="category-icon" aria-hidden="true">♡</span>
+          <span class="category-name">Wedding Cakes</span>
+          <span class="category-description">For the beginning of forever.</span>
+          <span class="category-arrow">↗</span>
+        </button>
+
+        <button class="category-card" type="button" data-filter="children">
+          <span class="category-number">03 / WONDER</span>
+          <span class="category-icon" aria-hidden="true">✦</span>
+          <span class="category-name">Children's Cakes</span>
+          <span class="category-description">Big smiles, little celebrations.</span>
+          <span class="category-arrow">↗</span>
+        </button>
+
+        <button class="category-card" type="button" data-filter="custom">
+          <span class="category-number">04 / YOUR VISION</span>
+          <span class="category-icon" aria-hidden="true">◇</span>
+          <span class="category-name">Custom Cakes</span>
+          <span class="category-description">A design that's uniquely yours.</span>
+          <span class="category-arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- CAKE GALLERY -->
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">THE CAKE COLLECTION</span>
+          <h2>Made to Be <em>Remembered.</em></h2>
+          <p>Browse our creations and select a cake for your next special occasion.</p>
+        </div>
+        <a class="text-link" href="#order">Have a design in mind? <span>↗</span></a>
+      </div>
+
+      <div class="gallery-toolbar" aria-label="Filter cake gallery">
+        <div class="filter-list">
+          <button class="filter-button active" type="button"
+                  data-filter="all" aria-pressed="true">All Cakes</button>
+          <button class="filter-button" type="button"
+                  data-filter="birthday" aria-pressed="false">Birthday</button>
+          <button class="filter-button" type="button"
+                  data-filter="wedding" aria-pressed="false">Wedding</button>
+          <button class="filter-button" type="button"
+                  data-filter="children" aria-pressed="false">Children's Cakes</button>
+          <button class="filter-button" type="button"
+                  data-filter="custom" aria-pressed="false">Custom Cakes</button>
+        </div>
+        <p class="gallery-count" id="galleryResultCount" aria-live="polite">Loading cakes...</p>
+      </div>
+
+      <div class="cake-grid gallery-grid" id="cakeGallery"></div>
+
+      <div class="gallery-empty" id="galleryEmpty" hidden>
+        <span>✳</span>
+        <h3>No cake images found</h3>
+        <p>Check the image filenames in your cake folder or choose another category.</p>
+      </div>
+
+      <div class="gallery-footer">
+        <p>Found something you love? Let's make it yours.</p>
+        <a class="button button-dark" href="#order">Enquire About a Cake <span>↗</span></a>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story-section" id="story">
+      <div class="story-decoration" aria-hidden="true">R</div>
+
+      <div class="story-content">
+        <span class="eyebrow">A LITTLE ABOUT US</span>
+        <h2>Not Just a Cake.<br><em>A Feeling to Remember.</em></h2>
+
+        <p>
+          At RVG Bakes, we believe that the sweetest memories often begin
+          around a table. A birthday, a wedding, a milestone or a simple
+          reason to smile — every occasion deserves its own special touch.
+        </p>
+
+        <p>
+          Our vision is to bring your ideas to life through thoughtful
+          cake designs, personal details and a celebration that feels
+          entirely your own.
+        </p>
+
+        <a class="button button-light" href="#order">Let's Create Your Cake <span>↗</span></a>
+      </div>
+
+      <div class="story-side">
+        <span class="story-quote-mark">“</span>
+        <blockquote>
+          The best celebrations aren't just seen.
+          They're felt, shared and remembered.
+        </blockquote>
+        <span class="story-signature">With love, RVG Bakes</span>
+      </div>
+    </section>
+
+    <!-- FOUNDER -->
+    <section class="section founder-section" id="founder">
+      <div class="founder-layout">
+        <div class="founder-visual">
+          <span class="founder-visual-top">THE PERSON BEHIND THE VISION</span>
+          <div class="founder-initials">RVG</div>
+          <span class="founder-visual-bottom">CREATED WITH PURPOSE · SERVED WITH CARE</span>
+        </div>
+
+        <div class="founder-copy">
+          <span class="eyebrow">MEET OUR FOUNDER</span>
+          <h2>Built on a Vision.<br><em>Made for Your Moments.</em></h2>
+
+          <p class="founder-name">Ragul Veera Ganesh M</p>
+          <p class="founder-title">Founder &amp; CEO · RVG Bakes</p>
+
+          <p>
+            RVG Bakes is shaped by a vision to make celebrations more
+            personal and memorable. From choosing a flavour to sharing
+            your design idea, we want your cake journey to feel welcoming,
+            thoughtful and special.
+          </p>
+
+          <p>
+            Every enquiry is a chance to understand your celebration and
+            explore a design that suits your occasion, style and budget.
+          </p>
+
+          <div class="founder-signoff">
+            <span>Our promise</span>
+            <p>Every celebration deserves a little piece of heaven.</p>
+          </div>
+
+          <div class="founder-actions">
+            <a class="button button-dark"
+               href="https://wa.me/919025032285?text=Hello%20RVG%20Bakes%2C%20I%20would%20like%20to%20discuss%20a%20cake%20enquiry."
+               target="_blank" rel="noopener noreferrer">
+              Connect with Us <span>↗</span>
+            </a>
+            <a class="text-link"
+               href="https://www.instagram.com/rvgragul"
+               target="_blank" rel="noopener noreferrer">
+              Follow on Instagram ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section process-section">
+      <div class="section-heading centered-heading">
+        <div>
+          <span class="eyebrow">YOUR CELEBRATION, SIMPLIFIED</span>
+          <h2>From Your Idea to <em>Your Cake.</em></h2>
+          <p>A simple, personal way to start your cake enquiry.</p>
+        </div>
+      </div>
+
+      <div class="process-grid">
+        <article class="process-card">
+          <span class="process-number">01</span>
+          <h3>Choose Your Design</h3>
+          <p>Explore the gallery or tell us the cake you've imagined.</p>
+        </article>
+        <article class="process-card">
+          <span class="process-number">02</span>
+          <h3>Share Your Details</h3>
+          <p>Select your occasion, flavour, size, colours and budget.</p>
+        </article>
+        <article class="process-card">
+          <span class="process-number">03</span>
+          <h3>Send Your Enquiry</h3>
+          <p>Review your enquiry in WhatsApp and send it to our team.</p>
+        </article>
+        <article class="process-card">
+          <span class="process-number">04</span>
+          <h3>Confirm the Details</h3>
+          <p>Discuss availability, final pricing and delivery with us.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ORDER FORM + FOUNDER PANEL -->
+    <section class="premium-enquiry-section" id="order">
+      <div class="enquiry-intro">
+        <span class="eyebrow">LET'S MAKE IT SPECIAL</span>
+        <h2>Your Dream Cake<br><em>Starts Here.</em></h2>
+        <p>Tell us a little about your celebration. We'll help you take it from idea to enquiry.</p>
+      </div>
+
+      <div class="enquiry-layout">
+
+        <!-- LEFT: COMPLETE ENQUIRY FORM -->
+        <div class="enquiry-form-panel">
+          <form class="order-form" id="cakeOrderForm">
+            <div class="form-heading">
+              <span class="eyebrow">CAKE ENQUIRY</span>
+              <h3>Tell Us What You Have in Mind.</h3>
+              <p>Fields marked * are required.</p>
+            </div>
+
+            <h4 class="form-section-title">01 — Your Details</h4>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="customerName">Your Name *</label>
+                <input id="customerName" name="customerName" required maxlength="100"
+                       autocomplete="name" placeholder="Enter your full name">
+              </div>
+              <div class="form-group">
+                <label for="customerPhone">Phone Number *</label>
+                <input id="customerPhone" name="customerPhone" type="tel" required
+                       maxlength="20" autocomplete="tel" placeholder="Your contact number">
+              </div>
+            </div>
+
+            <h4 class="form-section-title">02 — Celebration Details</h4>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cakeType">Occasion *</label>
+                <select id="cakeType" name="cakeType" required>
+                  <option value="">Choose your occasion</option>
+                  <option>Birthday</option>
+                  <option>Wedding</option>
+                  <option>Engagement</option>
+                  <option>Anniversary</option>
+                  <option>Children's Celebration</option>
+                  <option>Baby Shower</option>
+                  <option>Graduation</option>
+                  <option>Corporate Event</option>
+                  <option>Festival</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="deliveryDate">Required Date *</label>
+                <input type="date" id="deliveryDate" name="deliveryDate" required>
+              </div>
+            </div>
+
+            <h4 class="form-section-title">03 — Design Your Cake</h4>
+
+            <div class="form-group">
+              <label for="cakeShape">Cake Shape *</label>
+              <select id="cakeShape" name="cakeShape" required>
+                <option value="">Choose a shape</option>
+                <option value="🎂 Round">🎂 Round</option>
+                <option value="🟦 Square">🟦 Square</option>
+                <option value="▭ Rectangle">▭ Rectangle</option>
+                <option value="💖 Heart">💖 Heart</option>
+                <option value="⭐ Star">⭐ Star</option>
+                <option value="🎀 Oval">🎀 Oval</option>
+                <option value="🌸 Flower">🌸 Flower</option>
+                <option value="🔢 Number Cake">🔢 Number Cake</option>
+                <option value="🔤 Letter Cake">🔤 Letter Cake</option>
+                <option value="🏰 Designer / Sculpted Cake">🏰 Designer / Sculpted Cake</option>
+                <option value="🎨 Custom Shape">🎨 Custom Shape</option>
+                <option value="🤔 Need Suggestions">🤔 Need Suggestions</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cakeWeight">Cake Size *</label>
+                <select id="cakeWeight" name="cakeWeight" required>
+                  <option value="">Choose a size</option>
+                  <option>0.5 kg</option>
+                  <option>1 kg</option>
+                  <option>1.5 kg</option>
+                  <option>2 kg</option>
+                  <option>3 kg</option>
+                  <option>4 kg</option>
+                  <option>5 kg</option>
+                  <option>6 kg</option>
+                  <option>7 kg</option>
+                  <option>8 kg</option>
+                  <option>10 kg or more</option>
+                  <option>Need guidance</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="cakeFlavour">Preferred Flavour *</label>
+                <select id="cakeFlavour" name="cakeFlavour" required>
+                  <option value="">Choose a flavour</option>
+                  <option>Chocolate</option>
+                  <option>Dark Chocolate</option>
+                  <option>Chocolate Truffle</option>
+                  <option>Chocolate Fudge</option>
+                  <option>Chocolate Ganache</option>
+                  <option>Black Forest</option>
+                  <option>White Forest</option>
+                  <option>Vanilla</option>
+                  <option>Butterscotch</option>
+                  <option>Red Velvet</option>
+                  <option>Fresh Fruit</option>
+                  <option>Strawberry</option>
+                  <option>Blueberry</option>
+                  <option>Mango</option>
+                  <option>Pineapple</option>
+                  <option>Rasmalai</option>
+                  <option>Oreo</option>
+                  <option>Lotus Biscoff</option>
+                  <option>Caramel</option>
+                  <option>Coffee Mocha</option>
+                  <option>White Chocolate</option>
+                  <option>KitKat</option>
+                  <option>Ferrero Rocher</option>
+                  <option>Mixed Fruit</option>
+                  <option>Eggless — flavour to discuss</option>
+                  <option>Other / Need suggestions</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cakeMessageText">Name / Message on Cake</label>
+              <input id="cakeMessageText" name="cakeMessageText" maxlength="150"
+                     placeholder="e.g. Happy Birthday, Jaffer">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="colorPalette">Colour Palette</label>
+                <select id="colorPalette" name="colorPalette">
+                  <option value="">Choose a colour theme</option>
+                  <option>Blush Pink and Ivory</option>
+                  <option>Red and White</option>
+                  <option>Black and Gold</option>
+                  <option>White and Gold</option>
+                  <option>Blue and White</option>
+                  <option>Pink and Purple</option>
+                  <option>Pastel Colours</option>
+                  <option>Brown and Chocolate</option>
+                  <option>Green and White</option>
+                  <option>Rainbow Colours</option>
+                  <option>Elegant All White</option>
+                  <option>Custom Colours</option>
+                  <option>Surprise Me</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="customColours">Custom Colours</label>
+                <input id="customColours" name="customColours" maxlength="150"
+                       placeholder="e.g. Sage green and cream">
+              </div>
+            </div>
+
+            <h4 class="form-section-title">04 — Budget & Delivery</h4>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cakeBudget">Your Budget</label>
+                <select id="cakeBudget" name="cakeBudget">
+                  <option value="">Choose your budget</option>
+                  <option>Below ₹500</option>
+                  <option>₹500–₹999</option>
+                  <option>₹1,000–₹1,499</option>
+                  <option>₹1,500–₹1,999</option>
+                  <option>₹2,000–₹2,999</option>
+                  <option>₹3,000–₹4,999</option>
+                  <option>₹5,000–₹9,999</option>
+                  <option>₹10,000+</option>
+                  <option>Need a quotation</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="deliveryPreference">Delivery Preference *</label>
+                <select id="deliveryPreference" name="deliveryPreference" required>
+                  <option value="">Choose an option</option>
+                  <option>Store Pickup — Cumbum</option>
+                  <option>Delivery within 5 km of Cumbum</option>
+                  <option>Delivery beyond 5 km — confirm availability</option>
+                  <option>Discuss delivery options</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cakeMessage">Additional Design Requests</label>
+              <textarea id="cakeMessage" name="cakeMessage" rows="4" maxlength="1500"
+                        placeholder="Describe your theme, decorations, reference design or special requests..."></textarea>
+            </div>
+
+            <button type="submit" class="button button-dark form-submit">
+              Send Enquiry on WhatsApp <span>↗</span>
+            </button>
+
+            <p class="form-note">
+              WhatsApp opens with your enquiry ready to review and send.
+              Final pricing, availability and delivery will be confirmed by RVG Bakes.
+            </p>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <!-- RIGHT: FOUNDER PANEL -->
+        <aside class="founder-panel">
+          <span class="eyebrow">THE PEOPLE BEHIND THE CAKES</span>
+
+          <div class="founder-monogram">RVG</div>
+
+          <h3>Every Celebration.<br><em>A Little More Special.</em></h3>
+
+          <p class="founder-intro">
+            Thoughtful cake designs, personal details and a vision
+            to make every celebration memorable.
+          </p>
+
+          <div class="founder-divider"></div>
+
+          <span class="eyebrow">MEET OUR FOUNDER</span>
+          <h4 class="founder-name">Ragul Veera Ganesh M</h4>
+          <p class="founder-role">Founder &amp; CEO · RVG Bakes</p>
+
+          <p class="founder-description">
+            We want every customer to feel heard, every design to feel
+            personal and every celebration to have its own special touch.
+          </p>
+
+          <div class="founder-values">
+            <div class="founder-value">
+              <span>01</span>
+              <div><strong>Made with Care</strong><p>Details that make a difference.</p></div>
+            </div>
+            <div class="founder-value">
+              <span>02</span>
+              <div><strong>Designed for You</strong><p>Your occasion, your vision.</p></div>
+            </div>
+            <div class="founder-value">
+              <span>03</span>
+              <div><strong>Personal Service</strong><p>Let's plan your cake together.</p></div>
+            </div>
+          </div>
+
+          <div class="founder-contact">
+            <p>Have a beautiful idea?</p>
+            <a class="founder-whatsapp"
+               href="https://wa.me/919025032285"
+               target="_blank" rel="noopener noreferrer">
+              Talk to RVG Bakes <span>↗</span>
+            </a>
+            <a class="founder-instagram"
+               href="https://www.instagram.com/rvgragul"
+               target="_blank" rel="noopener noreferrer">
+              Instagram · @rvgragul ↗
+            </a>
+          </div>
+
+          <div class="founder-panel-footer">
+            <span>RVG BAKES</span>
+            <span>A LITTLE PIECE OF HEAVEN</span>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- FINAL CALL TO ACTION -->
+    <section class="final-cta" id="contact">
+      <div class="final-cta-decoration" aria-hidden="true">✳</div>
+      <span class="eyebrow">YOUR NEXT BEAUTIFUL MEMORY STARTS HERE</span>
+      <h2>Let's Make Something <em>Sweet.</em></h2>
+      <p>Tell us what you're celebrating. We'll help you take the next step.</p>
+      <div class="final-cta-actions">
+        <a class="button button-light"
+           href="https://wa.me/919025032285?text=Hello%20RVG%20Bakes%2C%20I%20would%20like%20to%20enquire%20about%20a%20cake."
+           target="_blank" rel="noopener noreferrer">
+          Chat on WhatsApp <span>↗</span>
+        </a>
+        <a class="button button-ghost-light"
+           href="https://www.instagram.com/rvgragul"
+           target="_blank" rel="noopener noreferrer">
+          Follow Instagram
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a href="#home" class="brand brand-footer">
+          <span class="brand-monogram">
+    <img src="assets/images/logo/rvg-monogram.png" alt="RVG Bakes Logo">
+</span>
+          <span class="brand-copy">
+            <strong>RVG BAKES</strong>
+            <small>A LITTLE PIECE OF HEAVEN</small>
+          </span>
+        </a>
+        <p>Thoughtfully designed cakes for the moments that matter.</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="#home">Home</a>
+        <a href="#categories">Shop by Category</a>
+        <a href="#gallery">Cake Gallery</a>
+        <a href="#story">Our Story</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Get in Touch</h3>
+        <a href="#order">Enquire About a Cake</a>
+        <a href="https://wa.me/919025032285" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+        <a href="https://www.instagram.com/rvgragul" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        <a href="#founder">Meet the Founder</a>
+      </div>
+
+      <div class="footer-column footer-signature">
+        <span class="eyebrow">OUR PHILOSOPHY</span>
+        <p>Crafted for your celebrations.<br><em>Remembered for a lifetime.</em></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="currentYear"></span> RVG Bakes. All rights reserved.</p>
+      <p>Made with care in Cumbum, Tamil Nadu.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+
+    
+   
+<p class="credit-title">
+    Powered by
+    <a href="https://undigitalhub.vercel.app/"
+       target="_blank" rel="noopener noreferrer">
+        <img
+            src="assets/images/cakes/un-digital-hub-logo.png"
+            alt="UN Digital Hub Logo"
+            class="unhub-footer-logo">
+        <span>UN Digital Hub ↗</span>
+    </a>
+</p>
+
+
+      <p class="credit-details">
+        <span>Udyam Registration: UDYAM-TN-23-0077465</span>
+        <span class="credit-separator">·</span>
+      </p>
+
+      <div class="credit-links">
+        <a href="https://undigitalhub.vercel.app/"
+           target="_blank" rel="noopener noreferrer">
+          Website ↗
+        </a>
+
+        <a href="https://jaffersujaudeen-profile.vercel.app/"
+           target="_blank" rel="noopener noreferrer">
+          Founder Portfolio ↗
+        </a>
+
+        <a href="https://wa.me/919487838963?text=Hey%20UN%20Digital%20Hub%2C%20I%20saw%20your%20profile%20on%20a%20website%20powered%20by%20you.%20I%27d%20like%20to%20know%20more%20about%20your%20services."
+           target="_blank" rel="noopener noreferrer">
+          WhatsApp ↗
+        </a>
+      </div>
+    </div>
+
+
+  </footer>
+
+  <a class="floating-whatsapp"
+     href="https://wa.me/919025032285?text=Hello%20RVG%20Bakes%2C%20I%20would%20like%20to%20enquire%20about%20a%20cake."
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Contact RVG Bakes on WhatsApp">
+    <span aria-hidden="true">↗</span>
+    <span>Let's Talk Cake</span>
+  </a>
+
+</body>
+</html>
